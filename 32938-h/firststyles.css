@@ -1,0 +1,185 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+div.titlepage {margin: 4em 5% 2em; padding: 1em 0;
+border-top: 4px double #000; border-bottom: 4px double #000;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em;
+text-align: center;}
+hr.page {width: 60%; height: 1.5px; margin-top: 2em; margin-bottom: 2em;
+color: #666; background-color: #666;}
+hr.small {width: 30%;}
+hr.tiny {width: 20%;}
+
+div.footnote hr {text-align: left; margin-left: 0; width: 50%;
+color: #666; background-color: #666;}
+
+img {text-decoration: none; border: none; padding: 0;}
+
+sup {line-height: .5;}
+
+table a, h4 a, .mynote a, div.contents a {text-decoration: none;}
+
+a.tag {text-decoration: none; vertical-align: .3em; font-size: 80%;
+padding-left: .25em; line-height: .1em;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5; margin: .5em 1em; clear: left;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 175%;}
+h3 {font-size: 150%;}
+div.maintext h2 {margin-top: 2em;}
+div.maintext h3 {font-size: 125%; letter-spacing: .08em;
+margin-top: 3em;}
+
+h4 {font-size: 120%;}
+div.maintext h4 {font-size: 112%; font-style: italic;
+margin-top: 1.5em; margin-bottom: .75em; letter-spacing: .08em;}
+
+div.maintext h3 + h4, div.maintext h3 + h3 {margin-top: 1em;}
+
+h5 {font-size: 100%;}
+div.maintext h5 {margin-top: 1em; font-size: 92%;}
+
+h6 {font-size: 80%;}
+div.maintext h6 {margin-top: 1em;}
+
+h1.three, h2.three {font-size: 150%;}
+h1.four, h2.four, h3.four {font-size: 120%;}
+h2.five, h3.five, h4.five {font-size: 100%;}
+h1.six, h2.six, h3.six, h4.six {font-size: 80%;}
+
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+p.right {text-align: right; margin-right: 2em;}
+p.center {text-align: center;}
+p.space {margin-top: 1.2em;}
+p.section {margin-top: 2em;}
+
+p.inset, div.inset {padding-left: 2em; padding-right: 2em;}
+
+div.list {margin-top: .5em; margin-left: 1em;}
+div.list p {margin-top: 0; margin-left: 1em; text-indent: -1em;}
+
+p.quotation, div.quotation
+{margin-left: 1em; margin-right: 2em; font-size: 95%;}
+
+div.verse {margin: .5em 4em;}
+div.verse p {margin-top: 0; margin-left: 4em; text-indent: -4em;
+font-size: 92%;}
+div.verse p.indent {margin-left: 5em;}
+div.verse p.deep {margin-left: 18em;}
+
+
+p.illustration {text-align: center; margin-top: 1em;
+margin-bottom: 1em;}
+p.illustration.clear {clear: right;}
+p.caption {margin-bottom: 1.5em; font-size: 85%; text-align: center;}
+
+div.figfloat {float: right; clear: right; margin: 0 0 .5em .5em;
+width: auto;}
+div.figfloat p.illustration {margin-top: 0;}
+div.figfloat p.caption {margin-bottom: 0;}
+
+
+/* footnotes */
+
+div.footnote {margin: 2em; font-size: 92%;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em; font-size: inherit; font-family: inherit;
+border-collapse: collapse;}
+
+td {vertical-align: top; text-align: left; padding: .1em;}
+
+td.number, td.item, td.right {text-align: right;}
+td.center {text-align: center;}
+td.item {padding-right: .5em;}
+td.number {vertical-align: bottom; white-space: nowrap;}
+
+/* Recording Languages and Sign Language articles */
+
+tr.text td {vertical-align: bottom;}
+tr.gloss td {font-size: 88%;}
+tr.gloss td.hyphen {padding-right: .25em;}
+
+/* illustrations */
+
+table.picture {clear: left; margin-top: 0; margin-bottom: 0;
+border-collapse: separate; border-spacing: 2em .8em;}
+table.picture.float {float: right; clear: right; margin-right: -2em;
+width: auto;}
+table.picture td {text-align: center; font-size: 85%;}
+td.illustration {text-align: center; vertical-align: bottom;}
+td.caption {padding: 0 1em;}
+
+/* contents */
+
+table.toc {margin-left: 5%; width: 90%;}
+td.inset {padding-left: 1.5em;}
+
+/* Index and Catalogue articles */
+
+td.inset2 {padding-left: 2em;}
+td.inset3 {padding-left: 3em;}
+td.inset4 {padding-left: 4em;}
+td.inset5 {padding-left: 5em;}
+td.inset6 {padding-left: 6em;}
+td.inset7 {padding-left: 7em;}
+td.inset8 {padding-left: 8em;}
+td.inset9 {padding-left: 9em;}
+td.inset10 {padding-left: 10em;}
+td.inset11 {padding-left: 11em;}
+td.inset12 {padding-left: 12em;}
+
+/* paragraphs in tables */
+
+table p {margin-top: 0; margin-left: 2em; text-indent: -2em;
+line-height: normal;}
+
+
+/* text formatting */
+
+.smaller {font-size: 88%;}
+.smallcaps {font-variant: small-caps; font-style: normal;}
+span.smallroman {text-transform: lowercase; font-variant: small-caps;}
+
+.extended {letter-spacing: .2em;}
+span.extended {margin-left: -.2em;}
+
+span.ellipsis {letter-spacing: 1em; margin-left: 1em;
+white-space: nowrap;}
+
+span.sans {font-family: sans-serif; font-weight: bold;}
+
+
+/* greek translit */
+
+span.greek {font-family: serif, sans-serif;}
+
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+
+/* page number */
+
+span.pagenum {position: absolute; right: 2%; font-size: 80%;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0; padding-top: .33em;}
+
+/* Transcriber's Note */
+
+.mynote {background-color: #DDE; color: #000;
+font-family: sans-serif; font-size: 90%;}
+
+div.mynote {margin: 2em 0; padding: .5em 1em 1em;}
+p.mynote {margin: 1em 5%; padding: 1em;}
+div.mynote a {text-decoration: none;}
+
+div.contents {font-family: sans-serif; font-size: 90%;
+border: 3px ridge #99C; margin: 2em 5%; padding: .5em 2em 1em;}
