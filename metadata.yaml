@@ -1,0 +1,108 @@
+_repo: First-Annual-Report-of-the-Bureau-of-Ethnology-to-the-Secretary-of-the-Smithsonian-Institutio__32938
+_version: 0.1.0
+contributor:
+  contributors:
+  - agent_name: Mallery, Garrick
+    birthdate: 1831
+    deathdate: 1894
+    gutenberg_agent_id: '7395'
+    url: http://www.gutenberg.org/2009/agents/7395
+  - agent_name: Royce, Charles C.
+    birthdate: 1845
+    deathdate: 1923
+    gutenberg_agent_id: '7171'
+    url: http://www.gutenberg.org/2009/agents/7171
+  - agent_name: Gatschet, Albert S. (Albert Samuel)
+    aliases:
+    - Gatschet, Albert Samuel
+    - Gatschet, A. S. (Albert Samuel)
+    birthdate: 1832
+    deathdate: 1907
+    gutenberg_agent_id: '7104'
+    url: http://www.gutenberg.org/2009/agents/7104
+  - agent_name: Dorsey, James Owen
+    alias: Dorsey, J. Owen (James Owen)
+    birthdate: 1848
+    deathdate: &id002 1895
+    gutenberg_agent_id: '7103'
+    url: http://www.gutenberg.org/2009/agents/7103
+  - agent_name: Holden, Edward S. (Edward Singleton)
+    aliases:
+    - Holden, Edward Singleton
+    - Holden, E. S. (Edward Singleton)
+    - Atherton, Edward
+    - Singleton, Adam
+    birthdate: &id001 1846
+    deathdate: 1914
+    gutenberg_agent_id: '6360'
+    url: http://www.gutenberg.org/2009/agents/6360
+    wikipedia: http://en.wikipedia.org/wiki/Edward_Singleton_Holden
+  - agent_name: Riggs, Stephen Return
+    alias: Riggs, S. R. (Stephen Return)
+    birthdate: 1812
+    deathdate: 1883
+    gutenberg_agent_id: '7105'
+    url: http://www.gutenberg.org/2009/agents/7105
+  - agent_name: Yarrow, H. C. (Harry Crécy)
+    aliases:
+    - Yarrow, Harry Creecy
+    - Yarrow, Harry Crécy
+    - Yarrow, H. C. (Harry Crecy)
+    birthdate: 1840
+    deathdate: 1929
+    gutenberg_agent_id: '3964'
+    url: http://www.gutenberg.org/2009/agents/3964
+  - agent_name: Pilling, James Constantine
+    birthdate: *id001
+    deathdate: *id002
+    gutenberg_agent_id: '7256'
+    url: http://www.gutenberg.org/2009/agents/7256
+covers:
+- cover_type: archival
+  image_path: 32938-h/images/cover.jpg
+creator:
+  editor:
+    agent_name: Powell, John Wesley
+    aliases:
+    - Powell, Wes
+    - Powell, J. W. (John Wesley)
+    birthdate: 1834
+    deathdate: 1902
+    gutenberg_agent_id: '7040'
+    url: http://www.gutenberg.org/2009/agents/7040
+    wikipedia: http://en.wikipedia.org/wiki/John_Wesley_Powell
+description: ''
+gutenberg_issued: '2010-06-20'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '32938'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Indians of North America -- Government relations'
+- !lcsh 'Indians of North America -- Land tenure'
+- !lcsh 'Indians of North America -- Funeral customs and rites'
+- !lcsh 'Indians of Central America -- Languages -- Writing'
+- !lcsh 'Indians of North America -- Languages'
+- !lcsh 'Indian mythology -- North America'
+- !lcsh 'Indians of North America -- Religion'
+- !lcsh 'Indians of North America -- Folklore'
+- !lcc 'E011'
+- !lcsh 'Indians of North America'
+tableOfContents: 'Report of the Director -- On the evolution of language ... from
+  a study of Indian languages / by J.W. Powell -- Sketch of the mythology of the North
+  American Indians / by J.W. Powell -- Wyandot government: a short study of tribal
+  society / by J.W. Powell -- On limitations to the use of some anthropologic data
+  / by J.W. Powell -- A further contribution to the study of the mortuary customs
+  of the North American Indians / by H.C. Yarrow -- Studies in Central American picture-writing
+  / by Edward S. Holden -- Cessions of land by Indian tribes to the United States:
+  illustrated by those in the State of Indiana / by C.C. Royce -- Sign language among
+  North American Indians compared with that among other peoples and deaf-mutes / by
+  Garrick Mallery -- Catalogue of linguistic manuscripts in the library of the Bureauy
+  of Ethnology / by James C. Pilling -- Illustration of the method of recording Indian
+  languages / from the manuscripts of J.O. Dorsey, A.S. Gatschet, and S.R. Riggs.'
+title: "First Annual Report of the Bureau of Ethnology\r\nto the Secretary of the\
+  \ Smithsonian Institution 1879-1880, Government Printing Office 1881"
+url: http://www.gutenberg.org/ebooks/32938
